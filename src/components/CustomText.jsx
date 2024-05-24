@@ -27,7 +27,7 @@ const CustomText = () => {
      
       </div>
 
-      <div className='flex gap-10'>
+      <div className='flex flex-col md:flex-row gap-10'>
       <label className='font-semibold flex items-center gap-3 text-md'>
         Family:
         <select value={snap.fontFamily} onChange={(e) => state.fontFamily= e.target.value}

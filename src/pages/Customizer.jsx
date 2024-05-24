@@ -164,7 +164,7 @@ const Customizer = () => {
 
 
             </motion.div>
-            <motion.div className='sm:w-[50vw] h-[70vh]  overflow-y-scroll scrollbar-none'>
+            <motion.div className='sm:w-[50vw] h-[70vh]  overflow-y-scroll scrollbar-none overflow-x-hidden mb-20'>
               <Products />
               <ColorPicker />
               <CustomText />

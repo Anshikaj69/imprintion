@@ -25,9 +25,9 @@ const ColorPicker = () => {
   return (
 
     <>
-      <div className='radio-container px-5 flex gap-16 items-center py-14'>
+      <div className=' px-5 flex flex-col sm:flex-row gap-16 items-center py-14'>
         <div>
-          <div className='flex '>
+          <div className='flex flex-row'>
           <h1 className='text-xl font-bold mr-14'>Colors</h1>
           <div className='flex gap-2'>
           {Object.entries(materialList).map(([material, colors]) => {
@@ -43,7 +43,7 @@ const ColorPicker = () => {
           </div>
           </div>
         </div>
-        <div className='flex flex-col gap-3 align-middle justify-center slider-container'>
+        <div className='flex flex-col gap-3 pl-[25%] sm:pl-0 mt-5 sm:mt-0 align-middle justify-center slider-container'>
           <label className='text-l font-bold '>
             Custom Color
           </label>

@@ -65,7 +65,7 @@ const Customizer = () => {
                             style={{
                               position: 'absolute',
                               top: '53%',
-                              left: '50%',
+                              left: '51%',
                               width: '115px',
                               height: '60px',
                               overflow: 'hidden',
@@ -74,7 +74,7 @@ const Customizer = () => {
                               fontSize: `${snap.fontSize}px`,
                               fontFamily: snap.fontFamily,
                               fontStyle: snap.fontStyle,
-                              transform: `rotate(-50.5deg)`
+                              transform: `rotate(-52deg)`
                             }}
                           >
                             {snap.text}
@@ -84,7 +84,7 @@ const Customizer = () => {
                             style={{
                               position: 'absolute',
                               top: '33%',
-                              left: '67%',
+                              left: '68%',
                               width: '110px',
                               height: '60px',
                               overflow: 'hidden',
